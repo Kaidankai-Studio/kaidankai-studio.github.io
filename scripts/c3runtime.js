@@ -4500,7 +4500,6 @@ self.C3_JsPropNameTable = [
 	{TextInput: 0},
 	{Button: 0},
 	{Browser: 0},
-	{nuvZHRWJXdzFd7Vzbi6hEQ: 0},
 	{vivaldi_7ElPllANU: 0},
 	{Soma: 0}
 ];
@@ -4513,7 +4512,6 @@ self.InstanceType = {
 	TextInput: class extends self.ITextInputInstance {},
 	Button: class extends self.IButtonInstance {},
 	Browser: class extends self.IInstance {},
-	nuvZHRWJXdzFd7Vzbi6hEQ: class extends self.ISpriteInstance {},
 	vivaldi_7ElPllANU: class extends self.ISpriteInstance {}
 }
 }
@@ -4622,7 +4620,7 @@ self.C3_ExpressionFuncs = [
 			return () => f0(n1.ExpObject());
 		},
 		() => -717706215031807,
-		() => -1023,
+		() => -717750023016447,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
