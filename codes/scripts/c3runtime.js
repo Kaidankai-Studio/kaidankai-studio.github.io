@@ -4373,6 +4373,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser,
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.System.Cnds.Compare,
+		C3.Plugins.System.Exps.lowercase,
 		C3.Plugins.TextBox.Exps.Text,
 		C3.Plugins.Browser.Acts.GoToURL
 	];
@@ -4490,13 +4491,18 @@ function or(l, r)
 
 self.C3_ExpressionFuncs = [
 		p => {
-			const n0 = p._GetNode(0);
-			return () => (n0.ExpObject()).toString();
+			const f0 = p._GetNode(0).GetBoundMethod();
+			const n1 = p._GetNode(1);
+			return () => f0((n1.ExpObject()).toString());
 		},
+		() => "kanji",
+		() => "https://canyoufinish.ju.mp/#ffghtttyu",
 		() => "85637",
 		() => "https://canyoufinish.ju.mp/#jjhiiiokm",
-		() => "kanji",
-		() => "https://canyoufinish.ju.mp/#ffghtttyu"
+		() => "12224532278111",
+		() => "https://canyoufinish.ju.mp/#wwerfggza",
+		() => "18082020",
+		() => "https://wa.me/+5512983038660?text=O%20ultimo%20código%20é%2008082020.%20Eu%20completei%20todos%20enigmas%20dos%20meus%20amigos."
 ];
 
 
