@@ -4501,8 +4501,10 @@ self.C3_ExpressionFuncs = [
 		() => "https://canyoufinish.ju.mp/#jjhiiiokm",
 		() => "12224532278111",
 		() => "https://canyoufinish.ju.mp/#wwerfggza",
-		() => "18082020",
-		() => "https://wa.me/+5512983038660?text=O%20ultimo%20código%20é%2008082020.%20Eu%20completei%20todos%20enigmas%20dos%20meus%20amigos."
+		() => "ELISA",
+		() => "https://wa.me/+5512983038660?text=O%20ultimo%20código%20é%2008082020.%20Eu%20completei%20todos%20enigmas%20dos%20meus%20amigos.",
+		() => "SPORE",
+		() => "https://canyoufinish.ju.mp/#spore"
 ];
 
 
